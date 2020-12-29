@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Button,
@@ -13,7 +14,6 @@ import {
   CardContent,
   Avatar,
   Box,
-  Link,
   Hidden,
   createMuiTheme,
   List,
@@ -639,24 +639,24 @@ export default function App() {
       </Grid>
 
       <Grid direction="row" style={{ marginTop: "15px" }} container>
-        <Grid xs={12} md={8} container className={classes.bottomIconGrid}>
+        <Grid xs={12} md={7} container className={classes.bottomIconGrid}>
           <p className={classes.copyrightLineStyles}>
             {" "}
             copyright &#9400; Educulture. All rights reserved.
           </p>
         </Grid>
-        <Grid xs={12} md={4} container className={classes.otherIconsGrid}>
+        <Grid xs={12} md={5} container className={classes.otherIconsGrid}>
           <div>
-            <Link style={{ paddingRight: "10px" }} href="/privacy">
+            <Link style={{ paddingRight: "10px" }} to="/privacy">
               Privacy
             </Link>
-            <Link style={{ paddingRight: "10px" }} href="/disclaimer">
+            <Link style={{ paddingRight: "10px" }} top="/disclaimer">
               Disclaimer
             </Link>
-            <Link style={{ paddingRight: "10px" }} href="/terms">
+            <Link style={{ paddingRight: "10px" }} to="/terms">
               Terms of Services
             </Link>
-            <Link href="/refund-policy">Refund Policy</Link>
+            <Link to="/refund-policy">Refunds</Link>
           </div>
         </Grid>
       </Grid>
