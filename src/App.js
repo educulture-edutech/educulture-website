@@ -10,40 +10,26 @@ import {
   Grid,
   Typography,
   Card,
-  CardActions,
   CardContent,
   Avatar,
   Box,
   Link,
-  withStyles,
   Hidden,
   createMuiTheme,
-  Drawer,
   List,
   Divider,
   ListItem,
   ListItemIcon,
-  ListItemText,
-  Dialog,
   SwipeableDrawer,
 } from "@material-ui/core";
-import MuiDialogTitle from "@material-ui/core/DialogTitle";
-import MuiDialogContent from "@material-ui/core/DialogContent";
-import MuiDialogActions from "@material-ui/core/DialogActions";
-import AndroidOutlinedIcon from "@material-ui/icons/AndroidOutlined";
-import FormatQuoteIcon from "@material-ui/icons/FormatQuote";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+
 import MenuIcon from "@material-ui/icons/Menu";
 import ReactPlayer from "react-player/lazy";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
-import Slider from "react-slick";
+
 import Carousel from "react-elastic-carousel";
-import CloseIcon from "@material-ui/icons/Close";
 
 const theme = createMuiTheme({
   breakpoints: {
@@ -167,15 +153,6 @@ const useStyles = makeStyles({
     color: theme.palette.grey[500],
   },
 });
-
-const googlePlayButton = withStyles({
-  root: {
-    padding: 0,
-  },
-})(IconButton);
-
-// drawer functions
-const drawerWidth = 300;
 
 export default function App() {
   const classes = useStyles();

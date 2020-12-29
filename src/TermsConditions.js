@@ -1,28 +1,5 @@
 import React from "react";
-import {
-  Button,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Grid,
-  Typography,
-  Card,
-  CardActions,
-  CardContent,
-  Avatar,
-  Box,
-  Link,
-  withStyles,
-  Hidden,
-  createMuiTheme,
-  Drawer,
-  List,
-  Divider,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  SwipeableDrawer,
-} from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 const TermsConditions = () => {
   return (
