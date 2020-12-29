@@ -650,7 +650,7 @@ export default function App() {
             <Link style={{ paddingRight: "10px" }} to="/privacy">
               Privacy
             </Link>
-            <Link style={{ paddingRight: "10px" }} top="/disclaimer">
+            <Link style={{ paddingRight: "10px" }} to="/disclaimer">
               Disclaimer
             </Link>
             <Link style={{ paddingRight: "10px" }} to="/terms">
