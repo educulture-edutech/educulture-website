@@ -642,8 +642,7 @@ export default function App() {
         <Grid xs={12} md={8} container className={classes.bottomIconGrid}>
           <p className={classes.copyrightLineStyles}>
             {" "}
-            copyright &#9400; Educulture. All rights reserved. The Educulture
-            has registered trademarks and uses trademarks.
+            copyright &#9400; Educulture. All rights reserved.
           </p>
         </Grid>
         <Grid xs={12} md={4} container className={classes.otherIconsGrid}>
