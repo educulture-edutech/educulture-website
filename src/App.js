@@ -198,7 +198,7 @@ export default function App() {
               onClick={() =>
                 Swal.fire({
                   title: "Contact Us",
-                  html: `<p>For any queries, below are contact details: <br/> Mobile: +91-9021747391 <br/> Email: contact.educulture@gmail.com</p>`,
+                  html: `<p>For any queries, below are contact details: <br/> Mobile: +91-9021747391 <br/> Email: contactus.educulture@gmail.com</p>`,
                   confirmButtonText: "Close",
                 })
               }
