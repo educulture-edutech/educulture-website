@@ -256,7 +256,8 @@ export default function App() {
           >
             <img
               style={{ height: "50px", width: "50px" }}
-              src="https://raw.githubusercontent.com/educulture-edutech/icons/main/final/main-logo/main-logo-250x250.png"
+              // src="https://raw.githubusercontent.com/educulture-edutech/icons/main/final/main-logo/main-logo-250x250.png"
+              src="https://raw.githubusercontent.com/educulture-edutech/icons/main/final/main-logo/main-logo-baseline-animation.gif"
               alt="main-logo"
             />
           </IconButton>
@@ -389,14 +390,20 @@ export default function App() {
 
       <Grid container style={{ marginTop: "30px" }}>
         <Carousel
+          style={{ color: "#C43175" }}
           breakPoints={[
-            { width: 1, itemsToShow: 1 },
-            { width: 550, itemsToShow: 2 },
-            { width: 768, itemsToShow: 3 },
-            { width: 1200, itemsToShow: 3 },
+            { width: 1, itemsToShow: 1, showArrows: false, pagination: true },
+            { width: 550, itemsToShow: 2, showArrows: false, pagination: true },
+            { width: 768, itemsToShow: 3, showArrows: true, pagination: false },
+            {
+              width: 1200,
+              itemsToShow: 3,
+              showArrows: true,
+              pagination: false,
+            },
           ]}
-          showArrows={false}
-          pagination={false}
+          // showArrows={true}
+          //pagination={false}
           // itemsToShow={3}
         >
           <div
@@ -617,7 +624,7 @@ export default function App() {
               // className={classes.menuButton}
               color="inherit"
               aria-label="menu"
-              style={{ padding: "0px", marginRight: "15px" }}
+              style={{ padding: "0px", marginRight: "0px" }}
               href="https://www.youtube.com/channel/UCN0F-8V9QAliUrKI2gOOkZA"
             >
               <YouTubeIcon
@@ -646,18 +653,24 @@ export default function App() {
           </p>
         </Grid>
         <Grid xs={12} md={5} container className={classes.otherIconsGrid}>
-          <div>
+          <Grid item>
             <Link style={{ paddingRight: "10px" }} to="/privacy">
               Privacy
             </Link>
+          </Grid>
+          <Grid item>
             <Link style={{ paddingRight: "10px" }} to="/disclaimer">
               Disclaimer
             </Link>
+          </Grid>
+          <Grid item>
             <Link style={{ paddingRight: "10px" }} to="/terms">
               Terms of Services
             </Link>
+          </Grid>
+          <Grid item>
             <Link to="/refund-policy">Refunds</Link>
-          </div>
+          </Grid>
         </Grid>
       </Grid>
 
