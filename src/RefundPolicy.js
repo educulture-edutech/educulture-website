@@ -11,12 +11,7 @@ export default function RefundPolicy() {
       </Grid>
       <br />
       <br />
-      <Grid
-        style={{ margin: "15px" }}
-        container
-        justify="center"
-        alignItems="center"
-      >
+      <Grid container justify="center" alignItems="center">
         <p>
           Since we deal in online video courses and it's a digital service, we
           don't offer a refund.
