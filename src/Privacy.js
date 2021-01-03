@@ -5,37 +5,36 @@ export default function Privacy() {
   return (
     <div>
       <Grid container justify="center" alignItems="center">
-        <h1>
+        <h1 style={{ textAlign: "center" }}>
           <u>PRIVACY</u>
         </h1>
       </Grid>
       <div style={{ padding: "15px" }}>
         <h4>WHAT DO WE DO WITH YOUR INFORMATION?</h4>
         <p style={{ lineHeight: "30px", marginTop: "10px" }}>
-          When you purchase something from our store, as part of the buying and
+          When you purchase something from our App, as part of the buying and
           selling process, we collect the personal information you give us such
-          as your name, address and email address. When you browse our store, we
-          also automatically receive your computer’s internet protocol (IP)
-          address in order to provide us with information that helps us learn
-          about your browser and operating system. Email marketing (if
-          applicable): With your permission, we may send you emails about our
-          store, new products and other updates.
+          as your name, email address, etc. When you browse our App, we also
+          automatically receive your information in order to provide us with
+          information that helps us learn about your requirements. Email
+          marketing (if applicable): With your permission, we may send you
+          emails about our App and other updates.
         </p>
       </div>
       <div style={{ padding: "15px" }}>
         <h4>CONSENT</h4>
         <p style={{ lineHeight: "30px", marginTop: "10px" }}>
           How do you get my consent? When you provide us with personal
-          information to complete a transaction, verify your credit card, place
-          an order, arrange for a delivery or return a purchase, we imply that
-          you consent to our collecting it and using it for that specific reason
-          only. If we ask for your personal information for a secondary reason,
-          like marketing, we will either ask you directly for your expressed
-          consent, or provide you with an opportunity to say no. How do I
-          withdraw my consent? If after you opt-in, you change your mind, you
-          may withdraw your consent for us to contact you, for the continued
-          collection, use or disclosure of your information, at anytime, by
-          contacting us at support.educulture@gmail.com.
+          information to complete a transaction, verify your information, place
+          an order we imply that you consent to our collecting it and using it
+          for that specific reason only. If we ask for your personal information
+          for a secondary reason, like marketing, we will either ask you
+          directly for your expressed consent, or provide you with an
+          opportunity to say no. How do I withdraw my consent? If after you
+          opt-in, you change your mind, you may withdraw your consent for us to
+          contact you, for the continued collection, use or disclosure of your
+          information, at anytime, by contacting us at
+          support.educulture@gmail.com.
         </p>
       </div>
       <div style={{ padding: "15px" }}>
@@ -48,7 +47,7 @@ export default function Privacy() {
       <div style={{ padding: "15px" }}>
         <h4>PAYMENT</h4>
         <p style={{ lineHeight: "30px", marginTop: "10px" }}>
-          We use Razorpay for processing payments. We/Razorpay do not store your
+          We use Razorpay for processing payments. We/Razorpay do not App your
           card data on their servers. The data is encrypted through the Payment
           Card Industry Data Security Standard (PCI-DSS) when processing
           payment. Your purchase transaction data is only used as long as is
@@ -58,7 +57,7 @@ export default function Privacy() {
           the PCI Security Standards Council, which is a joint effort of brands
           like Visa, MasterCard, American Express and Discover. PCI-DSS
           requirements help ensure the secure handling of credit card
-          information by our store and its service providers. For more insight,
+          information by our App and its service providers. For more insight,
           you may also want to read terms and conditions of razorpay on
           https://razorpay.com
         </p>
@@ -81,12 +80,12 @@ export default function Privacy() {
           services of a third-party service provider, then your information may
           become subject to the laws of the jurisdiction(s) in which that
           service provider or its facilities are located. Once you leave our
-          store’s website or are redirected to a third-party website or
+          App's website or are redirected to a third-party website or
           application, you are no longer governed by this Privacy Policy or our
-          website’s Terms of Service. Links When you click on links on our
-          store, they may direct you away from our site. We are not responsible
-          for the privacy practices of other sites and encourage you to read
-          their privacy statements.
+          website’s Terms of Service. Links When you click on links on our App,
+          they may direct you away from our site. We are not responsible for the
+          privacy practices of other sites and encourage you to read their
+          privacy statements.
         </p>
       </div>
       <div style={{ padding: "15px" }}>
@@ -96,13 +95,6 @@ export default function Privacy() {
           and follow industry best practices to make sure it is not
           inappropriately lost, misused, accessed, disclosed, altered or
           destroyed.
-        </p>
-      </div>
-      <div style={{ padding: "15px" }}>
-        <h4>COOKIES</h4>
-        <p style={{ lineHeight: "30px", marginTop: "10px" }}>
-          We use cookies to maintain session of your user. It is not used to
-          personally identify you on other websites.
         </p>
       </div>
       <div style={{ padding: "15px" }}>
@@ -124,7 +116,7 @@ export default function Privacy() {
           material changes to this policy, we will notify you here that it has
           been updated, so that you are aware of what information we collect,
           how we use it, and under what circumstances, if any, we use and/or
-          disclose it. If our store is acquired or merged with another company,
+          disclose it. If our App is acquired or merged with another company,
           your information may be transferred to the new owners so that we may
           continue to sell products to you.
         </p>
@@ -177,7 +169,7 @@ export default function Privacy() {
           to limit or prohibit orders that, in our sole judgment, appear to be
           placed by dealers, resellers or distributors.You agree to provide
           current, complete and accurate purchase and account information for
-          all purchases made at our store. You agree to promptly update your
+          all purchases made at our App. You agree to promptly update your
           account and other information, including your email address and credit
           card numbers and expiration dates, so that we can complete your
           transactions and contact you as needed.For more detail, please review
@@ -254,8 +246,8 @@ export default function Privacy() {
       <div style={{ padding: "15px" }}>
         <h4>PERSONAL INFORMATION</h4>
         <p style={{ lineHeight: "30px", marginTop: "10px" }}>
-          Your submission of personal information through the store is governed
-          by our Privacy Policy.
+          Your submission of personal information through the App is governed by
+          our Privacy Policy.
         </p>
       </div>
       <div style={{ padding: "15px" }}>

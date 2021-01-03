@@ -5,7 +5,7 @@ const TermsConditions = () => {
   return (
     <div>
       <Grid container justify="center" alignItems="center">
-        <h1>
+        <h1 style={{ textAlign: "center" }}>
           <u>TERMS AND CONDITIONS</u>
         </h1>
       </Grid>

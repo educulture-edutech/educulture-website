@@ -558,7 +558,7 @@ export default function App() {
         </Carousel>
       </Grid>
 
-      <Grid direction="row" style={{ marginTop: "15px" }} container>
+      <Grid direction="row" style={{ marginTop: "30px" }} container>
         <Grid xs={12} md={6} container className={classes.bottomIconGrid}>
           <IconButton
             // edge="start"
@@ -645,7 +645,7 @@ export default function App() {
         </Grid>
       </Grid>
 
-      <Grid direction="row" style={{ marginTop: "15px" }} container>
+      <Grid direction="row" style={{ marginTop: "30px" }} container>
         <Grid xs={12} md={7} container className={classes.bottomIconGrid}>
           <p className={classes.copyrightLineStyles}>
             {" "}

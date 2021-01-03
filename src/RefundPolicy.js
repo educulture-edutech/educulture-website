@@ -5,21 +5,32 @@ export default function RefundPolicy() {
   return (
     <div>
       <Grid container justify="center" alignItems="center">
-        <h1>
+        <h1 style={{ textAlign: "center" }}>
           <u>Refund Policy</u>
         </h1>
       </Grid>
       <br />
       <br />
-      <Grid container justify="center" alignItems="center">
+      <Grid
+        style={{ margin: "15px" }}
+        container
+        justify="center"
+        alignItems="center"
+      >
         <p>
-          All the paid (non-free) subjects offered by Educulture are
-          non-refundable.
+          Since we deal in online video courses and it's a digital service, we
+          don't offer a refund.
         </p>
         &nbsp;
         <p>
-          For additional queries, read our payment policy under Privacy
-          Statement.
+          We request you to watch our sample free videos, available in almost
+          every course.
+        </p>
+        &nbsp;
+        <p>
+          You can also watch our youtube channel videos to get to know about the
+          quality of our videos. In simple terms, WE DON'T EXCEPT REFUND AT
+          EDUCULTURE.
         </p>
       </Grid>
 
