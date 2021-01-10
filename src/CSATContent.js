@@ -1,33 +1,16 @@
 import React from "react";
 import "./App.css";
-import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
 import {
-  Button,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Grid,
   Typography,
-  Card,
-  CardContent,
-  Avatar,
-  Box,
-  Hidden,
   createMuiTheme,
-  List,
-  Divider,
-  ListItem,
-  ListItemIcon,
-  SwipeableDrawer,
   Accordion,
-  AccordionActions,
   AccordionDetails,
   AccordionSummary,
 } from "@material-ui/core";
 
-import { Inbox, Drafts, ExpandMore } from "@material-ui/icons";
+import { ExpandMore } from "@material-ui/icons";
 
 const theme = createMuiTheme({
   breakpoints: {

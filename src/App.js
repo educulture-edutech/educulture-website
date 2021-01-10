@@ -21,13 +21,7 @@ import {
   ListItem,
   ListItemIcon,
   SwipeableDrawer,
-  Accordion,
-  AccordionActions,
-  AccordionDetails,
-  AccordionSummary,
 } from "@material-ui/core";
-
-import { Inbox, Drafts, ExpandMore } from "@material-ui/icons";
 
 import MenuIcon from "@material-ui/icons/Menu";
 import ReactPlayer from "react-player/lazy";
