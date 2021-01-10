@@ -21,7 +21,13 @@ import {
   ListItem,
   ListItemIcon,
   SwipeableDrawer,
+  Accordion,
+  AccordionActions,
+  AccordionDetails,
+  AccordionSummary,
 } from "@material-ui/core";
+
+import { Inbox, Drafts, ExpandMore } from "@material-ui/icons";
 
 import MenuIcon from "@material-ui/icons/Menu";
 import ReactPlayer from "react-player/lazy";
@@ -30,6 +36,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 
 import Carousel from "react-elastic-carousel";
+import CSATContent from "./CSATContent";
 
 const theme = createMuiTheme({
   breakpoints: {
@@ -151,6 +158,26 @@ const useStyles = makeStyles({
     right: theme.spacing(1),
     top: theme.spacing(1),
     color: theme.palette.grey[500],
+  },
+
+  cardRoot: {
+    minWidth: 275,
+  },
+
+  cardtitle: {
+    fontSize: 14,
+  },
+  cardPos: {
+    marginBottom: 12,
+  },
+
+  accordionRoot: {
+    width: "100%",
+  },
+
+  accordionHeading: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
   },
 });
 
@@ -363,6 +390,126 @@ export default function App() {
       </Grid>
 
       <Grid container justify="center" alignItems="center">
+        <p style={{ backgroundColor: "b8b8b8" }}>
+          &#9679; &nbsp; &#9679; &nbsp; &#9679;
+        </p>
+      </Grid>
+
+      {/* Pricing */}
+      <Grid
+        container
+        style={{ marginTop: "30px" }}
+        direction="column"
+        justify="center"
+        alignItems="center"
+      >
+        <div>
+          <h1 style={{ fontSize: "40px", textAlign: "center" }}>Our Pricing</h1>
+        </div>
+
+        <p style={{ fontSize: "20px", marginTop: "15px", textAlign: "center" }}>
+          Currently, Educulture is offering only MPSC CSAT course. Here is
+          pricing..
+        </p>
+      </Grid>
+
+      <Grid
+        container
+        style={{ marginTop: "30px" }}
+        justify="center"
+        alignItems="center"
+        direction="row"
+      >
+        <Grid xs={12} md={6} lg={6} xl={6}>
+          <div style={{ padding: "10px" }}>
+            <Card className={classes.mainCard} variant="outlined">
+              <CardContent>
+                <h2 style={{ textAlign: "center", color: "white" }}>Free</h2>
+                <br />
+                <hr />
+                <div style={{ marginTop: "10px", lineHeight: "35px" }}>
+                  <h1 style={{ textAlign: "center" }}>
+                    &#8377; 0/<span>*</span>
+                  </h1>
+                  <div style={{ marginTop: "5px", textAlign: "center" }}>
+                    <h3> Unlimited Watching on Free videos</h3>
+                    <h3> Email Support</h3>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </Grid>
+        <Grid xs={12} md={6} lg={6} xl={6}>
+          <div style={{ padding: "10px" }}>
+            <Card className={classes.mainCard} variant="outlined">
+              <CardContent>
+                <h2 style={{ textAlign: "center", color: "white" }}>Paid</h2>
+                <br />
+                <hr />
+                <div style={{ marginTop: "10px", lineHeight: "35px" }}>
+                  <h1 style={{ textAlign: "center" }}>
+                    &#8377; 2500/<span>Yr</span>
+                  </h1>
+                  <div style={{ marginTop: "5px", textAlign: "center" }}>
+                    <h3> Unlimited Watching on Free Videos + Paid Subject</h3>
+                    <h3> Email Support</h3>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </Grid>
+      </Grid>
+
+      <Grid
+        style={{ marginTop: "30px" }}
+        container
+        justify="center"
+        alignItems="center"
+      >
+        <p style={{ backgroundColor: "b8b8b8" }}>
+          &#9679; &nbsp; &#9679; &nbsp; &#9679;
+        </p>
+      </Grid>
+
+      {/* Subject Content */}
+      <Grid
+        container
+        style={{ marginTop: "30px" }}
+        direction="column"
+        justify="center"
+        alignItems="center"
+      >
+        <div>
+          <h1 style={{ fontSize: "40px", textAlign: "center" }}>
+            Subject Content
+          </h1>
+        </div>
+
+        <p style={{ fontSize: "20px", marginTop: "15px", textAlign: "center" }}>
+          We update our course content regularly. Previously, we were using
+          Youtube for content storage. <br />
+          We are moving our content on our app as and when required.
+        </p>
+      </Grid>
+
+      <Grid
+        container
+        style={{ marginTop: "30px", width: "100%" }}
+        justify="center"
+        alignItems="center"
+        direction="row"
+      >
+        <CSATContent />
+      </Grid>
+
+      <Grid
+        style={{ marginTop: "30px" }}
+        container
+        justify="center"
+        alignItems="center"
+      >
         <p style={{ backgroundColor: "b8b8b8" }}>
           &#9679; &nbsp; &#9679; &nbsp; &#9679;
         </p>
