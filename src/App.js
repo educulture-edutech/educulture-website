@@ -482,9 +482,8 @@ export default function App() {
         </div>
 
         <p style={{ fontSize: "20px", marginTop: "15px", textAlign: "center" }}>
-          We update our course content regularly. Previously, we were using
-          Youtube for content storage. <br />
-          We are moving our content on our app as and when required.
+          In case we need, We update our subject content regularly. You'll get
+          notifications when we update the subject content.
         </p>
       </Grid>
 
