@@ -24,7 +24,7 @@ import {
 } from "@material-ui/core";
 
 import MenuIcon from "@material-ui/icons/Menu";
-import ReactPlayer from "react-player/lazy";
+// import ReactPlayer from "react-player/lazy";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
@@ -365,7 +365,7 @@ export default function App() {
         </Grid>
 
         {/* video player */}
-        <div
+        {/* <div
           item
           style={{
             width: "1000px",
@@ -380,7 +380,7 @@ export default function App() {
             width="100%"
             url="https://www.youtube.com/watch?v=yikdGjiIQsY"
           />
-        </div>
+        </div> */}
       </Grid>
 
       <Grid container justify="center" alignItems="center">
