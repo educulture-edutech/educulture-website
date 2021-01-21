@@ -231,7 +231,7 @@ export default function App() {
         </ListItem>
       </List>
       <Divider />
-      <List>
+      {/* <List>
         <ListItem button>
           <ListItemIcon>
             <div>
@@ -247,9 +247,9 @@ export default function App() {
               />
             </div>
           </ListItemIcon>
-          {/* <ListItemText primary={text} /> */}
+          <ListItemText primary={text} />
         </ListItem>
-      </List>
+      </List> */}
     </div>
   );
 
@@ -313,13 +313,13 @@ export default function App() {
               Contact Us
             </Button>
 
-            <div style={{ padding: 0, marginRight: "-15px", marginTop: "2px" }}>
+            {/* <div style={{ padding: 0, marginRight: "-15px", marginTop: "2px" }}>
               <img
                 style={{ height: "80px", width: "220px", padding: 0 }}
                 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
                 alt="main-logo"
               />
-            </div>
+            </div> */}
           </Hidden>
 
           <div className={classes.menuIconStyles}>
