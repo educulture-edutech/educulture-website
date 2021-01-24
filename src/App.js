@@ -24,7 +24,7 @@ import {
 } from "@material-ui/core";
 
 import MenuIcon from "@material-ui/icons/Menu";
-// import ReactPlayer from "react-player/lazy";
+import ReactPlayer from "react-player/lazy";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
@@ -231,7 +231,7 @@ export default function App() {
         </ListItem>
       </List>
       <Divider />
-      {/* <List>
+      <List>
         <ListItem button>
           <ListItemIcon>
             <div>
@@ -247,9 +247,9 @@ export default function App() {
               />
             </div>
           </ListItemIcon>
-          <ListItemText primary={text} />
+          {/* <ListItemText primary={text} /> */}
         </ListItem>
-      </List> */}
+      </List>
     </div>
   );
 
