@@ -24,7 +24,7 @@ export default function RefundPolicy() {
         &nbsp;
         <p>
           You can also watch our youtube channel videos to get to know about the
-          quality of our videos. In simple terms, WE DON'T EXCEPT REFUND AT
+          quality of our videos. In simple terms, WE DON'T GIVE REFUND AT
           EDUCULTURE.
         </p>
       </Grid>
