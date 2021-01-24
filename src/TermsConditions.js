@@ -144,7 +144,7 @@ const TermsConditions = () => {
         <h4>CONTACT INFORMATION</h4>
         <p style={{ lineHeight: "30px", marginTop: "10px" }}>
           Questions about the Terms of Service should be sent to us at
-          theeduculture@gmail.com
+          contactus.educulture@gmail.com
         </p>
       </div>
       <hr />
