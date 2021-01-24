@@ -313,13 +313,13 @@ export default function App() {
               Contact Us
             </Button>
 
-            {/* <div style={{ padding: 0, marginRight: "-15px", marginTop: "2px" }}>
+            <div style={{ padding: 0, marginRight: "-15px", marginTop: "2px" }}>
               <img
                 style={{ height: "80px", width: "220px", padding: 0 }}
                 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
                 alt="main-logo"
               />
-            </div> */}
+            </div>
           </Hidden>
 
           <div className={classes.menuIconStyles}>
@@ -365,7 +365,7 @@ export default function App() {
         </Grid>
 
         {/* video player */}
-        {/* <div
+        <div
           item
           style={{
             width: "1000px",
@@ -380,7 +380,7 @@ export default function App() {
             width="100%"
             url="https://www.youtube.com/watch?v=yikdGjiIQsY"
           />
-        </div> */}
+        </div>
       </Grid>
 
       <Grid container justify="center" alignItems="center">
