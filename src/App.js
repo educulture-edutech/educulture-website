@@ -232,7 +232,13 @@ export default function App() {
       </List>
       <Divider />
       <List>
-        <ListItem button>
+        <ListItem
+          button
+          onClick={() =>
+            (window.location.href =
+              "https://play.google.com/store/apps/details?id=com.educulture")
+          }
+        >
           <ListItemIcon>
             <div>
               <img
@@ -313,7 +319,18 @@ export default function App() {
               Contact Us
             </Button>
 
-            <div style={{ padding: 0, marginRight: "-15px", marginTop: "2px" }}>
+            <div
+              onClick={() =>
+                (window.location.href =
+                  "https://play.google.com/store/apps/details?id=com.educulture")
+              }
+              style={{
+                padding: 0,
+                marginRight: "-15px",
+                marginTop: "2px",
+                cursor: "pointer",
+              }}
+            >
               <img
                 style={{ height: "80px", width: "220px", padding: 0 }}
                 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
