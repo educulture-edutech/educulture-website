@@ -28,6 +28,7 @@ import ReactPlayer from "react-player/lazy";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 import Carousel from "react-elastic-carousel";
 import CSATContent from "./CSATContent";
@@ -256,6 +257,37 @@ export default function App() {
           {/* <ListItemText primary={text} /> */}
         </ListItem>
       </List>
+      <Divider />
+      <List>
+        <ListItem
+          button
+          onClick={() =>
+            (window.location.href =
+              "https://play.google.com/store/apps/details?id=com.educulture")
+          }
+        >
+          <ListItemIcon>
+            <div>
+              <a
+                href="https://www.amazon.in/CSAT-Stop-Solution-Nirav-Publications/dp/B08WHJCCQ5/ref=sr_1_2?dchild=1&keywords=NIRAV+DA&qid=1613194327&sr=8-2?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  border: "none",
+                  TextDecoration: "none",
+                }}
+              >
+                <img
+                  style={{ height: "53px", marginTop: "2px", width: "153px" }}
+                  src="https://www.niftybuttons.com/amazon/amazon-button9.png"
+                  alt="amazon-button"
+                />
+              </a>
+            </div>
+          </ListItemIcon>
+          {/* <ListItemText primary={text} /> */}
+        </ListItem>
+      </List>
     </div>
   );
 
@@ -311,13 +343,31 @@ export default function App() {
               onClick={() =>
                 Swal.fire({
                   title: "Contact Us",
-                  html: `<p>For any queries, below are contact details: <br/> Mobile: +91-9021747391 <br/> Email: contact.educulture@gmail.com</p>`,
+                  html: `<p>For any queries, below are contact details: <br/> Mobile: +91-9021747391 <br/> Email: contactus.educulture@gmail.com</p>`,
                   confirmButtonText: "Close",
                 })
               }
             >
               Contact Us
             </Button>
+
+            <div>
+              <a
+                href="https://www.amazon.in/CSAT-Stop-Solution-Nirav-Publications/dp/B08WHJCCQ5/ref=sr_1_2?dchild=1&keywords=NIRAV+DA&qid=1613194327&sr=8-2?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  border: "none",
+                  TextDecoration: "none",
+                }}
+              >
+                <img
+                  style={{ height: "50px", marginTop: "2px" }}
+                  src="https://www.niftybuttons.com/amazon/amazon-button9.png"
+                  alt="amazon-button"
+                />
+              </a>
+            </div>
 
             <div
               onClick={() =>
@@ -499,8 +549,8 @@ export default function App() {
         </div>
 
         <p style={{ fontSize: "20px", marginTop: "15px", textAlign: "center" }}>
-          In case we need, We update our subject content regularly. You'll get
-          notifications when we update the subject content.
+          We update our subject content regularly. You'll get notifications when
+          we update the subject content.
         </p>
       </Grid>
 
@@ -512,6 +562,25 @@ export default function App() {
         direction="row"
       >
         <CSATContent />
+      </Grid>
+
+      <Grid container justify="center" alignItems="center">
+        <Button
+          onClick={() =>
+            (window.location.href =
+              "https://play.google.com/store/apps/details?id=com.educulture")
+          }
+          variant="outlined"
+          color="secondary"
+          style={{
+            textTransform: "none",
+            margin: "15px",
+            height: "50px",
+            width: "150px",
+          }}
+        >
+          Watch on App
+        </Button>
       </Grid>
 
       <Grid
@@ -763,6 +832,28 @@ export default function App() {
               style={{ padding: "0px", marginRight: "15px" }}
             >
               <FacebookIcon
+                style={{
+                  height: "40px",
+                  width: "40px",
+                  padding: 0,
+                  color: "#b8b8b8",
+                }}
+              />
+              {/* <img
+                style={{ height: "40px", width: "40px" }}
+                src="https://raw.githubusercontent.com/educulture-edutech/icons/main/final/main-logo/main-logo-250x250.png"
+                alt="main-logo"
+              /> */}
+            </IconButton>
+            <IconButton
+              // edge="start"
+              // className={classes.menuButton}
+              color="inherit"
+              aria-label="menu"
+              style={{ padding: "0px", marginRight: "15px" }}
+              href="https://t.me/abhishekcsat"
+            >
+              <TelegramIcon
                 style={{
                   height: "40px",
                   width: "40px",

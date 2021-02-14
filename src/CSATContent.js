@@ -142,6 +142,53 @@ const content = [
       },
     ],
   },
+  {
+    subtopicName: "PSDM",
+
+    chapters: [
+      {
+        chapterName:
+          "PSDM past year papers from 2013,2014,2015,2016,2017,2018,2019",
+      },
+    ],
+  },
+  {
+    subtopicName: "Syllogism",
+
+    chapters: [
+      {
+        chapterName: "Syllogism",
+      },
+    ],
+  },
+  {
+    subtopicName: "Puzzles",
+
+    chapters: [
+      {
+        chapterName: "Concepts to solve puzzles",
+      },
+    ],
+  },
+  {
+    subtopicName: "Puzzles",
+
+    chapters: [
+      {
+        chapterName: "Passages",
+      },
+    ],
+  },
+  {
+    subtopicName: "And More",
+
+    chapters: [
+      {
+        chapterName:
+          "Input ouput, Venn Diagram, Coding Decoding, Order Ranking, खरे खोटे, Directions",
+      },
+    ],
+  },
 ];
 
 const CSATContent = () => {
