@@ -263,7 +263,7 @@ export default function App() {
           button
           onClick={() =>
             (window.location.href =
-              "https://play.google.com/store/apps/details?id=com.educulture")
+              "https://www.amazon.in/CSAT-Stop-Solution-Nirav-Publications/dp/B08WHJCCQ5/ref=sr_1_2?dchild=1&keywords=NIRAV+DA&qid=1613194327&sr=8-2?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR")
           }
         >
           <ListItemIcon>
